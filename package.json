@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/*.js"
+    "test": "mocha tests/*.js",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
